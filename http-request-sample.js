@@ -17,6 +17,11 @@ courses = [
   { id: 3, course: 'course 3' }
 ]
 
+app.get('/mama/', (req, res) => {
+  res.send('mama mo hello world')
+})
+
+
 app.get('/api/', (req, res) => {
   res.send('hello world')
 })
